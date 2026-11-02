@@ -48,7 +48,7 @@ Note: Pass rates are by grade. MICS pass rates and their standard errors are com
 - **Each pair is asked in both orders,** and the two answers are averaged to remove any bias towards the first option.
 - **The result for each pair** is the probability that one passage is harder than the other.
 
-**Cleaning the books.** Text extracted from scanned books carries page clutter, which a judge might read as difficulty. Before any judging, each book is cleaned (`src/tgs/difficulty/clean.py`):
+**Cleaning the books.** Text extracted from scanned books carries page clutter, which a judge might read as difficulty. Before any judging, each book is cleaned ([`code/clean.py`](code/clean.py)):
 
 - page numbers, and running heads and footers that repeat across pages, are removed;
 - headings, exercise labels ("UNIT 4", "Exercise 3") and tables or sums are treated as breaks in the text;
