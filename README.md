@@ -41,7 +41,7 @@ Note: Pass rates are by grade. MICS pass rates and their standard errors are com
 
 **The method.** Comparative judgement is used to mark essays. People, and AI models, are poor at giving a text an absolute difficulty score, but good at saying which of two texts is harder. Many such pairwise judgements place every text on one scale.
 
-**The judge.** TypeSafe's Jev model (jev-1.13.0) was used, because it returns a probability rather than a written answer. It was asked:
+**The judge.** TypeSafe's Jev model (jev-1.13.0) was used because it is fast, cheap and reliable enough for tens of thousands of comparisons. It was asked:
 
 > Which passage is harder for a child of about 9 to read and understand, where the child is a beginning reader who may be reading in a second language? Weigh unfamiliar words, sentence length and structure, how abstract the ideas are or how much background knowledge they need, and how the text is organised. Do not count a passage as harder just because it is longer. Some passages are messy text from scanned textbooks; judge the reading the child would face and ignore obvious extraction noise.
 
