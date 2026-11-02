@@ -1,0 +1,261 @@
+{
+ "made": "2026-11-02",
+ "per_book": 2,
+ "passages": 2321,
+ "pairs": 15710,
+ "new_input_tokens": 11125217,
+ "new_cost_usd": 0.4673,
+ "clean": true,
+ "passage_words": {
+  "BGD-bn": 72,
+  "BGD-en": 72,
+  "GHA-en": 69,
+  "GUY-en": 72,
+  "IND-en": 17,
+  "KEN-en": 79,
+  "KIR-en": 72,
+  "LSO-en": 72,
+  "MWI-en": 72,
+  "NGA-en": 72,
+  "PAK-en": 22,
+  "RWA-en": 68,
+  "SLE-en": 72,
+  "SSD-en": 72,
+  "TZA-en": 64,
+  "UGA-en": 74,
+  "ZAF-en": 710,
+  "ZWE-en": 72
+ },
+ "books_without_prose": {
+  "GUY-en": 5,
+  "ZAF-en": 7
+ },
+ "lines": {
+  "BGD-en": {
+   "tests": [
+    "mics6-english"
+   ],
+   "books": 29,
+   "harder_books": 29,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "GUY-en": {
+   "tests": [
+    "mics6-english"
+   ],
+   "books": 30,
+   "harder_books": 30,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "IND-en": {
+   "tests": [
+    "aser-india-english-2022"
+   ],
+   "books": 238,
+   "harder_books": 238,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "KEN-en": {
+   "tests": [
+    "uwezo-english-ken-2015"
+   ],
+   "books": 5,
+   "harder_books": 3,
+   "harder_share": 0.6,
+   "harder_share_90": [
+    0.6,
+    0.6
+   ]
+  },
+  "KIR-en": {
+   "tests": [
+    "mics6-english"
+   ],
+   "books": 16,
+   "harder_books": 16,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "MWI-en": {
+   "tests": [
+    "mics6-english"
+   ],
+   "books": 5,
+   "harder_books": 5,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "NGA-en": {
+   "tests": [
+    "mics6-english"
+   ],
+   "books": 11,
+   "harder_books": 11,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "PAK-en": {
+   "tests": [
+    "aser-pakistan-english-2025-a",
+    "aser-pakistan-english-2025-b"
+   ],
+   "books": 31,
+   "harder_books": 31,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "RWA-en": {
+   "tests": [
+    "egra-rwa-2011-g6"
+   ],
+   "books": 56,
+   "harder_books": 52,
+   "harder_share": 0.929,
+   "harder_share_90": [
+    0.875,
+    0.929
+   ]
+  },
+  "SSD-en": {
+   "tests": [
+    "mics6-english"
+   ],
+   "books": 30,
+   "harder_books": 30,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "TZA-en": {
+   "tests": [
+    "uwezo-english-tza-2017"
+   ],
+   "books": 13,
+   "harder_books": 12,
+   "harder_share": 0.923,
+   "harder_share_90": [
+    0.923,
+    1.0
+   ]
+  },
+  "UGA-en": {
+   "tests": [
+    "uwezo-english-uga-2024-a",
+    "uwezo-english-uga-2024-b"
+   ],
+   "books": 18,
+   "harder_books": 15,
+   "harder_share": 0.833,
+   "harder_share_90": [
+    0.778,
+    0.889
+   ]
+  },
+  "ZAF-en": {
+   "tests": [
+    "pirls-2021-zaf-a",
+    "pirls-2021-zaf-b"
+   ],
+   "books": 12,
+   "harder_books": 10,
+   "harder_share": 0.833,
+   "harder_share_90": [
+    0.667,
+    0.917
+   ]
+  },
+  "ZWE-en": {
+   "tests": [
+    "mics6-english"
+   ],
+   "books": 2,
+   "harder_books": 2,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  },
+  "BGD-bn": {
+   "tests": [
+    "mics6-bangla-bgd"
+   ],
+   "books": 47,
+   "harder_books": 47,
+   "harder_share": 1.0,
+   "harder_share_90": [
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "checks": {
+  "anchors": {
+   "G1": {
+    "n": 15,
+    "median_theta": -0.537,
+    "share_above_hardest_grade2_story": 0.4,
+    "share_above_median_story": 0.867
+   },
+   "G2-3": {
+    "n": 15,
+    "median_theta": 0.284,
+    "share_above_hardest_grade2_story": 0.733,
+    "share_above_median_story": 1.0
+   },
+   "G3-4": {
+    "n": 10,
+    "median_theta": 1.071,
+    "share_above_hardest_grade2_story": 1.0,
+    "share_above_median_story": 1.0
+   }
+  },
+  "test_stories": {
+   "n": 35,
+   "median_theta": -2.765,
+   "max_theta": -0.289
+  },
+  "books": {
+   "n": 2127,
+   "median_theta": -0.033
+  },
+  "noise_lift": {
+   "n": 10,
+   "median": 0.959,
+   "min": 0.039,
+   "max": 1.524
+  },
+  "cleaned_lift": {
+   "n": 10,
+   "median": 0.473,
+   "min": -0.166,
+   "max": 1.144
+  }
+ }
+}
