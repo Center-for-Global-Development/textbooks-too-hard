@@ -199,6 +199,7 @@ The code is in [`code/`](code). It is copied from the private research repositor
 | Ceilings and intervals | [`run.py`](code/run.py), run through [`cli.py`](code/cli.py) |
 | Reading-test passages and pass rates | [`reading.py`](code/reading.py) |
 | Word and sentence measures | [`measures.py`](code/measures.py) |
+| Books harder by grade (Table 2) | [`cj_by_grade.py`](code/cj_by_grade.py) |
 
 The results, without any book or test text, are in [`results/`](results):
 - [`results.json`](results/results.json): the ceilings by country;
