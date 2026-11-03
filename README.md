@@ -141,7 +141,22 @@ The ceiling combines the share of books that are harder at each grade with that 
 
 Note: "Books harder" counts the books judged harder than the hardest version of the test passage, out of the books with an extract. The ceiling counts each harder book as readable by at most the share of children in the next grade with a figure who passed the test, and every other book as readable by all children. The 90% interval combines error from the sample of books and from the survey. The last column applies the simpler rule: more rare words and longer sentences than the test. Countries with at least five scored books are shown.
 
-**Table 2. Pass rates used, by grade tested**
+**Table 2. Books harder than the test, by the book's grade**
+
+| Book grade | Books harder than the test | Share | Countries |
+|---|---|---|---|
+| 1 | 61 of 63 | 97% | 9 |
+| 2 | 44 of 47 | 94% | 9 |
+| 3 | 73 of 73 | 100% | 8 |
+| 4 | 77 of 79 | 98% | 9 |
+| 5 | 72 of 73 | 99% | 8 |
+| 6 | 91 of 91 | 100% | 7 |
+
+Note: Books with an extract on the countries in Table 1. The test passage is pitched at about Grade 2 level (Grade 4 for PIRLS in South Africa, which has no Grade 1–2 books with an extract). A book is harder when its median extract sits above the hardest version of its country's test passage. The grade is the one printed on the book.
+
+**Grades 1 and 2, by country.** Bangladesh 4 of 4; Guyana 11 of 11; India 61 of 61; Kenya 2 of 4; Malawi 2 of 2; Nigeria 10 of 10; Pakistan 6 of 6; Tanzania 5 of 6; Uganda 4 of 6. India supplies 61 of the 110; without it, 44 of 49 are harder.
+
+**Table 3. Pass rates used, by grade tested**
 
 | Country | Share passing the test, by grade (number of books set against it) |
 |---|---|
@@ -189,6 +204,7 @@ The results, without any book or test text, are in [`results/`](results):
 - [`results.json`](results/results.json): the ceilings by country;
 - [`cj_books.csv`](results/cj_books.csv): one row per book;
 - [`cj_passages.csv`](results/cj_passages.csv): every passage's place on the scale;
+- [`cj_by_grade.csv`](results/cj_by_grade.csv): books harder than the test, by the book's grade;
 - [`cj_run.json`](results/cj_run.json): the run's settings and checks;
 - [`validation-log.md`](results/validation-log.md): the working log of every check and earlier run.
 
